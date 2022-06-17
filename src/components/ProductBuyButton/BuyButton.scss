@@ -1,0 +1,54 @@
+.BuyButtonContainer {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-self:center;   
+    flex-direction: column;
+    .BuyButton {
+        cursor: pointer;
+        &:last-child{
+            display:none;
+            flex-direction: row;
+            align-items: center;
+            gap: 15px;
+            justify-content: center;
+            background: #A3F9B9;
+            p{
+                color: black;
+            }
+            &:hover{
+                background: rgb(5, 192, 52);
+            }
+        }
+        width: 240px;
+        height: 48px;
+        background: #40B25C;
+        border-radius: 5px;
+        border: none;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.005em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        transition: all 0.5s;
+        &:hover {
+            background: #1C6C3E;
+        }
+    }
+    
+}
+
+.Clicked{
+    .BuyButton{
+        &:first-child{
+            display: none;
+
+        }
+        &:last-child{
+            display: flex;
+        }
+    }
+}

@@ -1,0 +1,34 @@
+[
+    {
+        "productName": "Monitor LED 27'' Gamer Curvo Samsung  1920 x 1080 FHD 240 Hz HDMI, DP, Gsync Série CRG50",
+        "ProductId": 1,
+        "productPrice": {
+            "Selling": "R$ 2.813,00",
+            "FullPrice": "R$ 2813.99"
+        }
+    },
+    {
+        "productName": "Monitor LED 27'' Gamer Curvo Samsung  1920 x 1080 FHD 240 Hz HDMI, DP, Gsync Série CRG50",
+        "ProductId": 2,
+        "productPrice": {
+            "Selling": "R$ 2.813,00",
+            "FullPrice": "R$ 2813,99"
+        }
+    },
+    {
+        "productName": "Monitor LED 27'' Gamer Curvo Samsung  1920 x 1080 FHD 240 Hz HDMI, DP, Gsync Série CRG50",
+        "ProductId": 3,
+        "productPrice": {
+            "Selling": "R$ 2.813,00",
+            "FullPrice": "R$ 2813,99"
+        }
+    },
+    {
+        "productName": "Monitor LED 27'' Gamer Curvo Samsung  1920 x 1080 FHD 240 Hz HDMI, DP, Gsync Série CRG50",
+        "ProductId": 4,
+        "productPrice": {
+            "Selling": "R$ 2.813,00",
+            "FullPrice": "R$ 2813,99"
+        }
+    }
+]

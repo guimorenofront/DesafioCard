@@ -1,0 +1,40 @@
+.wishlist{
+    position: absolute;
+    background: #F2F3F6;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    border: none;
+    right: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+    cursor: pointer;
+    &:hover{
+        background: #FEE5EC;
+        svg{
+            path{
+                fill: #FEE5EC;
+            }
+        }
+    }
+}
+
+.wish-listClicked{
+    background: #DA4B4F;
+    svg{
+        path{
+            stroke:#F2F3F6
+        }
+    }
+
+    &:hover{
+        background: #C22539;
+        svg{
+            path{
+                fill: #F2F3F6;
+            }
+        }
+    }
+}
